@@ -1,0 +1,22 @@
+* {
+    border: 1px solid black;
+    box-sizing: border-box;
+  }
+
+  #header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 5rem;
+    color: darkred;
+    transition: color 1s;
+  }
+
+  #header:hover {
+    color: forestgreen;
+  }
+  
+  body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+  }
